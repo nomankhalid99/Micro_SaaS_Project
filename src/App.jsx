@@ -18,7 +18,7 @@ function App() {
           path="/home"
           element={
             <Layout
-              menuCollapse={menuCollapse}
+              menuCollapse={menuCollapse} 
               setMenuCollapse={setMenuCollapse}
             >
               <Home menuCollapse={menuCollapse} />
